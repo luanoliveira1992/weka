@@ -1,18 +1,31 @@
-@relation breast-cancer-wisconsin
+%   1. Sample code number            id number
+%   2. Clump Thickness               1 - 10
+%   3. Uniformity of Cell Size       1 - 10
+%   4. Uniformity of Cell Shape      1 - 10
+%   5. Marginal Adhesion             1 - 10
+%   6. Single Epithelial Cell Size   1 - 10
+%   7. Bare Nuclei                   1 - 10
+%   8. Bland Chromatin               1 - 10
+%   9. Normal Nucleoli               1 - 10
+%  10. Mitoses                       1 - 10
+%  11. Class:                        (2 for benign, 4 for malignant)
 
-@attribute Sample_code_number integer
-@attribute Clump_Thickness integer
-@attribute Uniformity_of_Cell_Size integer
-@attribute Uniformity_of_Cell_Shape integer
-@attribute Marginal_Adhesion integer
-@attribute Single_Epithelial_Cell_Size integer
-@attribute Bare_Nuclei integer
-@attribute Bland_Chromatin integer
-@attribute Normal_Nucleoli integer
-@attribute Mitoses integer
-@attribute Class integer
 
-@data 
+@RELATION breast-cancer-wisconsin
+
+@ATTRIBUTE Sample_code_number 			REAL
+@ATTRIBUTE Clump_Thickness 				REAL
+@ATTRIBUTE Uniformity_of_Cell_Size 		REAL
+@ATTRIBUTE Uniformity_of_Cell_Shape 	REAL
+@ATTRIBUTE Marginal_Adhesion 			REAL
+@ATTRIBUTE Single_Epithelial_Cell_Size 	REAL
+@ATTRIBUTE Bare_Nuclei 					REAL
+@ATTRIBUTE Bland_Chromatin 				REAL
+@ATTRIBUTE Normal_Nucleoli 				REAL
+@ATTRIBUTE Mitoses 						REAL
+@ATTRIBUTE Class 						{2,4}
+
+@DATA
 1000025,5,1,1,1,2,1,3,1,1,2
 1002945,5,4,4,5,7,10,3,2,1,2
 1015425,3,1,1,1,2,2,3,1,1,2
