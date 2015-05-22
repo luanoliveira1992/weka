@@ -1,5 +1,6 @@
 @relation wine
 
+@attribute class {1,2,3}
 @attribute Alcohol real
 @attribute Malic_acid real
 @attribute Ash real

@@ -26,5 +26,10 @@
 			<artifactId>weka-stable</artifactId>
 			<version>3.6.12</version>
 		</dependency>
+		<dependency>
+			<groupId>org.ow2.orchestra.eclipse.birt</groupId>
+			<artifactId>org.ow2.orchestra.eclipse.birt.chart.engine</artifactId>
+			<version>3.7.0</version>
+		</dependency>
 	</dependencies>
 </project>

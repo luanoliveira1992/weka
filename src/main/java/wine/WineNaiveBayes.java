@@ -1,19 +1,17 @@
 package wine;
 
 import java.io.FileReader;
-import java.util.Random;
 
 import weka.classifiers.Evaluation;
-import weka.classifiers.rules.ZeroR;
+import weka.classifiers.bayes.NaiveBayes;
 import weka.core.Instances;
 
-public class WineZeroR {
-	
+public class WineNaiveBayes {
 	public static void main(String[] args) throws Exception {
 		FileReader file = new FileReader("/home/luan/workspace/weka/weka/src/main/datas/wine.arff");
 		Instances instancia = new Instances(file);
 		instancia.setClassIndex(0);
-		ZeroR classidicador = new ZeroR();
+		NaiveBayes classidicador = new NaiveBayes();
 		classidicador.buildClassifier(instancia);
 		
 		
@@ -26,9 +24,6 @@ public class WineZeroR {
 		System.out.println(eval.incorrect());
 		System.out.println(eval.errorRate());
 		System.out.println(eval.unclassified());
-		
-		
-		
 	}
-   
+
 }
