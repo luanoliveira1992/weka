@@ -27,11 +27,18 @@
 			<version>3.6.12</version>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.jfree</groupId>
 			<artifactId>jfreechart</artifactId>
 			<version>1.0.19</version>
 		</dependency>
 
 
+=======
+			<groupId>org.ow2.orchestra.eclipse.birt</groupId>
+			<artifactId>org.ow2.orchestra.eclipse.birt.chart.engine</artifactId>
+			<version>3.7.0</version>
+		</dependency>
+>>>>>>> f9f4f36a77571827ca6913a86613a025e1c9d4d7
 	</dependencies>
 </project>

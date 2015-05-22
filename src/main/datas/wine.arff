@@ -12,6 +12,7 @@
 % 	12)OD280/OD315 of diluted wines
 % 	13)Proline            
 
+<<<<<<< HEAD
 @RELATION wine
 	
 @ATTRIBUTE Class						{1,2,3}
@@ -28,6 +29,22 @@
 @ATTRIBUTE Hue							REAL
 @ATTRIBUTE OD280/OD315_of_diluted_wines	REAL
 @ATTRIBUTE Proline            			REAL
+=======
+@attribute class {1,2,3}
+@attribute Alcohol real
+@attribute Malic_acid real
+@attribute Ash real
+@attribute Alcalinity_of_ash real
+@attribute Magnesium real
+@attribute Total_phenols real
+@attribute Flavanoids real
+@attribute Nonflavanoid_phenols real
+@attribute Proanthocyanins real
+@attribute Color_intensity real
+@attribute Hue real
+@attribute OD280/OD315_of_diluted_wines real
+@attribute Proline real
+>>>>>>> f9f4f36a77571827ca6913a86613a025e1c9d4d7
 
 @DATA
 1,14.23,1.71,2.43,15.6,127,2.8,3.06,.28,2.29,5.64,1.04,3.92,1065
